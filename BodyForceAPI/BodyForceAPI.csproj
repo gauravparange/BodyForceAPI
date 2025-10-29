@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BodyForce.Application\BodyForce.Application.csproj" />
+    <ProjectReference Include="..\BodyForce.Application\BodyForceAPI.Application.csproj" />
   </ItemGroup>
 
 </Project>

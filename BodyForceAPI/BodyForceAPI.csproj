@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BodyForce.Application\BodyForceAPI.Application.csproj" />
+    <ProjectReference Include="..\BodyForce.Infrastructure\BodyForceAPI.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

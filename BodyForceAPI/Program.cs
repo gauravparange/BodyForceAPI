@@ -1,6 +1,12 @@
+using BodyForce.Infrastructure;
+using BodyForceAPI;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddInfrastructure();
+//builder.Services.AddScoped<IMembershipRepository, MembershipRepository>();
+//builder.Services.AddScoped<MembershipService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

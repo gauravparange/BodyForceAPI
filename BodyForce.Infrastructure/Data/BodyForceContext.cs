@@ -14,7 +14,7 @@ namespace BodyForceAPI
                 
         }
         public DbSet<Users> User { get; set; }
-        public DbSet<MembershipPlans> Membership { get; set; }
+        public DbSet<MembershipPlans> MembershipPlans { get; set; }
         public DbSet<Memberships> Memberships { get; set; }
         public DbSet<Notifications> Notification { get; set; }
         public DbSet<Payments> Payment { get; set; }

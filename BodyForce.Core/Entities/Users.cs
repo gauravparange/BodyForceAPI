@@ -13,8 +13,8 @@ namespace BodyForceAPI
         public int UserId { get; set; }
         public string? Username { get; set; }
         public string? FullName { get; set; }
-        public byte[]? PasswordHash { get; set; }
-        public byte[]? PasswordSalt { get; set; }
+        //public byte[]? PasswordHash { get; set; } = null;
+        //public byte[]? PasswordSalt { get; set; } = null;
         public string? Phone { get; set; }
         public int RoleId { get; set; }
         public string? Address { get; set; }
